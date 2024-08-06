@@ -16,27 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/paper.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Stock crupled paper that looks cool";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a software engineer with a focus on back-end design and development. I am passionate about creating stuff on my free time and learning new technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
+// eslint-disable-next-line prettier/prettier
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "API design",
+  "Database design",
+  "Algorithm design",
+  "Iterative development",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. I dont like standards, I like to create them. Theres always a better way to do things, and I am always looking for it.";
 
 const About = () => {
   return (
