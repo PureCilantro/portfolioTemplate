@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Cool Portafolio Site",
   "source": "src/index.html",
-  "homepage": "http://PureCilantro.github.io/portfolioTemplate",
+  "homepage": "https://PureCilantro.github.io/portfolioTemplate",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
